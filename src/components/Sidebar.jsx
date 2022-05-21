@@ -6,8 +6,11 @@ const Sidebar = () => {
     <Box 
     flex={1} 
     p={2} 
-    sx={{display:{ xs: "none", sm: "block" }}}
+
+    sx={{display:{ xs: "none", sm: "block" , marginRight:"25px" }}}
     >
+        <Box position="fixed">
+
         <List>
             <ListItem>
                 <ListItemButton>
@@ -88,6 +91,7 @@ const Sidebar = () => {
                 </ListItemButton>
             </ListItem>
         </List>
+        </Box>
 
     </Box>
   )

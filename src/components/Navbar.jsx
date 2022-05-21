@@ -39,9 +39,9 @@ const UserBox = styled(Box)(( {theme} )=>({
 const Navbar = () => {
     const [open,setOpen] = useState(false)
   return (
-    <div>
+
         <AppBar position='sticky'>
-            <StyledToolbar>
+            <StyledToolbar >
                 <StyledTitle>
                     <Typography variant='h5 ' sx={{ display:{xs:"none", sm:"block"} }}>
                         Facebook
@@ -90,7 +90,7 @@ const Navbar = () => {
                     <MenuItem>Settings</MenuItem>
                 </Menu>
         </AppBar>
-    </div>
+
   )
 }
 
